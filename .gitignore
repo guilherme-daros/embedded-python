@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#VSCode Configs
+.vscode
+
+#Exports
+exports/
+
+#AuthToken
+bot/api_token.py
