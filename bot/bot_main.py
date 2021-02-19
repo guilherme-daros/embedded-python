@@ -30,7 +30,7 @@ def help_command(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(HELP)
 
 
-def main():
+def run():
     '''Starts the bot'''
 
     updater = Updater(TOKEN)
@@ -41,7 +41,3 @@ def main():
 
     updater.start_polling()
     updater.idle()
-
-
-if __name__ == '__main__':
-    main()

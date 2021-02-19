@@ -130,16 +130,6 @@ class DataBase(object):
         finally:
             connector.close()
 
-
-
-
-
-
-
-
-
-
-
     def get_moisture_data(self, node_id, day):
         '''Gets moisture data from a specific node at a specific day
 
